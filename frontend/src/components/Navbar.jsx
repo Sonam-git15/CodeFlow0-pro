@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import logo from "../images/logo.png"
+import logo from "../images/logo1.png"
 import { Link, useNavigate } from 'react-router-dom'
 import Avatar from 'react-avatar';
 import { MdLightMode } from "react-icons/md";
@@ -51,7 +51,7 @@ const Navbar = ({ isGridLayout, setIsGridLayout }) => {
           <Link>About</Link>
           <Link>Contact</Link>
           <Link>Services</Link>
-          <button onClick={logout} className='btnBlue !bg-red-500 min-w-[120px] ml-2 hover:!bg-red-600'>Logout</button>
+          <button onClick={logout} className='btnBlue min-w-[120px] ml-2 hover:!bg-red-600'>Logout</button>
           <Avatar onClick={() => { toggleClass(".dropDownNavbar", "hidden") }} name={data ? data.name : ""} size="40" round="50%" className=' cursor-pointer ml-2' />
         </div>
 

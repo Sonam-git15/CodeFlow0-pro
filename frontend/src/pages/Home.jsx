@@ -139,7 +139,7 @@ const Home = () => {
       {/* Modal for Creating a New Project */}
       {isCreateModelShow &&
         <div className="createModelCon fixed top-0 left-0 right-0 bottom-0 w-screen h-screen bg-[rgb(0,0,0,0.1)] flex items-center justify-center">
-          <div className="createModel w-[25vw] h-[27vh] shadow-lg shadow-black/50 bg-[#141414] rounded-[10px] p-[20px]">
+          <div className="createModel w-[25vw] h-[34vh] shadow-lg shadow-black/50 bg-[#141414] rounded-[10px] p-[20px]">
             <h3 className='text-2xl'>Create New Project</h3>
             <div className="inputBox !bg-[#202020] mt-4">
               <input
